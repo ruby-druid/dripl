@@ -12,6 +12,14 @@ $ gem install dripl
 
 ```
 $ dripl --zookeeper localhost:2181
+>> sources
+[
+    [0] "events"
+]
+
+>> use 0
+Using events data source
+
 >> metrics
 [
     [0] "actions"
