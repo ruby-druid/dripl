@@ -1,4 +1,3 @@
-gemspec
+source "https://rubygems.org"
 
-gem "byebug"
-gem "ruby-druid", path: "../ruby-druid"
+gemspec

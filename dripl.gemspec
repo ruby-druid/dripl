@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.name        = "dripl"
   s.version     = "0.0.1"
   s.authors     = ["Ruby Druid Community"]
-  s.summary     = "An interactive terminal for Druid"
+  s.summary     = %q{An interactive terminal for Druid}
   s.description = <<-EOF
     dripl is an interactive terminal for Druid. It allows
     fetching metadata and constructing and sending queries
