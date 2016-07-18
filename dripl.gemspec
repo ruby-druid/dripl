@@ -1,6 +1,11 @@
+lib = File.expand_path("../lib", __FILE__)
+$:.unshift(lib) unless $:.include?(lib)
+
+require "dripl/version"
+
 Gem::Specification.new do |s|
   s.name        = "dripl"
-  s.version     = "0.0.1"
+  s.version     = Dripl::VERSION
   s.authors     = ["Ruby Druid Community"]
   s.summary     = %q{An interactive terminal for Druid}
   s.description = <<-EOF
