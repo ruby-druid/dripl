@@ -5,13 +5,13 @@ An interactive terminal for Druid. It allows fetching metadata and constructing 
 ## Installation
 
 ```
-$ gem install dripl
+gem install dripl
 ```
 
 ## Usage
 
 ```
-$ dripl --zookeeper localhost:2181
+dripl --zookeeper localhost:2181
 >> sources
 [
     [0] "events"
