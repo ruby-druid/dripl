@@ -30,8 +30,8 @@ module Dripl
       end
 
       unless client
-        # TODO:
-        puts "error"
+        puts "Couldn't create Druid client"
+        exit 1
       end
 
       Prompt.new(client, config[:source]).start
