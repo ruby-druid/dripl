@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
-require "dripl"
+
+require 'bundler/setup'
+require 'dripl'
 
 # TODO: load .driplrc
 cli = Dripl::CLI.new
